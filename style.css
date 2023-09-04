@@ -1,0 +1,96 @@
+#container{
+display: grid;
+justify-content: center;
+}
+#display{
+    background-color:
+    #181F32;
+    width:  536px;
+    height:  142.73px;
+    margin-bottom: 25px;
+    border: 2px black solid;
+    color: white;
+
+    
+}
+.button-container{
+    width: 536px;
+    height: 
+    487px;
+    display: grid;
+    background-color:
+    #252D44;
+    border: 2px black solid;
+
+}
+.class{
+
+    background-color: white;
+    color: black;
+   
+
+    
+}
+#row1{
+    margin-top: 25px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#row2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#row3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#row4{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#row5{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around
+
+}
+button{
+    width: 100px;
+height: 60px;
+border-radius: 12px;
+font-family: Inter;
+font-size: 30px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+#reset{
+    background-color: #647299;
+    width: 222.43634033203125px;
+height: 60px;
+border-radius: 11.524008750915527px;
+
+}
+#equal{
+    width: 222.43634033203125px;
+    height: 60px;
+    border-radius: 11.524008750915527px;
+    background-color: #D13F30;
+}
+#delete{
+    background-color: #647299;
+}
