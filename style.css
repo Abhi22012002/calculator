@@ -2,7 +2,7 @@
 display: grid;
 justify-content: center;
 }
-#display{
+#txt{
     background-color:
     #181F32;
     width:  536px;
@@ -10,8 +10,18 @@ justify-content: center;
     margin-bottom: 25px;
     border: 2px black solid;
     color: white;
+    text-align: right;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
 
     
+}
+#display{
+    display: flex;
+    justify-content: flex-end;
 }
 .button-container{
     width: 536px;
