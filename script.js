@@ -30,7 +30,7 @@ function result()
         {
           let l=val.substring(0,i);
           let r=val.substring(i+1,val.length)
-          final=parseInt(l)+parseInt(r);
+          final=parseFloat(l)+parseFloat(r);
           
 
          
@@ -39,14 +39,14 @@ function result()
         {
           let l=val.substring(0,i);
           let r=val.substring(i+1,val.length)
-          final=parseInt(l)-parseInt(r);
+          final=parseFloat(l)-parseFloat(r);
           
         }
         if(val[i]=="*")
         {
           let l=val.substring(0,i);
           let r=val.substring(i+1,val.length)
-          final=parseInt(l)*parseInt(r);
+          final=parseFloat(l)*parseFloat(r);
         
          
         }
@@ -54,7 +54,7 @@ function result()
         {
           let l=val.substring(0,i);
           let r=val.substring(i+1,val.length)
-          final=parseInt(l)/parseInt(r);
+          final=parseFloat(l)/parseFloat(r);
           
 
          
@@ -62,3 +62,5 @@ function result()
     }
     document.getElementById("txt").value=final;
 }
+
+
