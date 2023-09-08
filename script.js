@@ -23,44 +23,11 @@ function reset()
 
 function result()
 {
-    let final;
-    for(let i=0;i<val.length;i++)
-    {
-        if(val[i]=="+")
-        {
-          let l=val.substring(0,i);
-          let r=val.substring(i+1,val.length)
-          final=parseFloat(l)+parseFloat(r);
-          
+    let x = val;
+    let y= eval(x);
+    document.getElementById("txt").value=y;
 
-         
-        }
-        if(val[i]=="-")
-        {
-          let l=val.substring(0,i);
-          let r=val.substring(i+1,val.length)
-          final=parseFloat(l)-parseFloat(r);
-          
-        }
-        if(val[i]=="*")
-        {
-          let l=val.substring(0,i);
-          let r=val.substring(i+1,val.length)
-          final=parseFloat(l)*parseFloat(r);
-        
-         
-        }
-        if(val[i]=="/")
-        {
-          let l=val.substring(0,i);
-          let r=val.substring(i+1,val.length)
-          final=parseFloat(l)/parseFloat(r);
-          
 
-         
-        }
-    }
-    document.getElementById("txt").value=final;
 }
 
 
